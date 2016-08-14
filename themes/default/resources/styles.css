@@ -1,3 +1,18 @@
+.fa {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+}
+
+.fa-arrow-circle-right:before {
+  content: "+";
+
+}
+
 .main-content {
 	margin-top:15px;
 }
@@ -82,7 +97,7 @@ footer{
 
 /* .nav .nav li { margin-left: 14px; } */
 
-.dropdown { padding: 0 9px; } 
+.dropdown { padding: 0 9px; }
 
 #nav.searching .expando > ul { display:inherit; }
 #nav.searching .expando > a { display:none; }
@@ -102,7 +117,7 @@ footer{
 	font-size: 90%;
 }
 
-h3 code { 
+h3 code {
 	background:none;
 	box-shadow: 0 0 15px rgb(240, 240, 240);
 	padding: 4px 8px;
@@ -112,8 +127,8 @@ h3 code {
 	margin-left: -10px;
 }
 
-h3 span.label {	
-	margin-right: 5px; 
+h3 span.label {
+	margin-right: 5px;
 }
 
 code {
@@ -131,7 +146,7 @@ code {
 code .identifier {
   font-family:bold 14px "Helvetica Neue",Helvetica,Arial,sans-serif;
   color:#002b36;
-  padding: 0 0 0 5px;  
+  padding: 0 0 0 5px;
 }
 
 code .identifier, code.type {
@@ -159,13 +174,13 @@ code .type { color:#268bd2; }
 body {
   padding: 0px;
   font-size:16px;
-  font-family:"Open Sans", sans-serif;
+  font-family:"Open Sans", "Arial", "宋体", sans-serif;
   color: #1e1e1e;
   line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Source Sans Pro", "Corbel", "Lucida Sans Unicode", sans-serif;
 	font-weight: 600;
 	word-wrap: break-word;
 }
@@ -340,10 +355,10 @@ pre.example:before {
     margin-right: 0;
     margin-left: 0;
   }
-  .navbar .divider { 
+  .navbar .divider {
     display: none;
   }
-  
+
   .main-content {
     margin-top:0px;
   }
